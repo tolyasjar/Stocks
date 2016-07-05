@@ -13,6 +13,9 @@
 		C86E118A1D2C195E002C65B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86E11881D2C195E002C65B9 /* Main.storyboard */; };
 		C86E118C1D2C195E002C65B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86E118B1D2C195E002C65B9 /* Assets.xcassets */; };
 		C86E118F1D2C195E002C65B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86E118D1D2C195E002C65B9 /* LaunchScreen.storyboard */; };
+		C86E11981D2C19AC002C65B9 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86E11971D2C19AC002C65B9 /* ContainerViewController.m */; };
+		C86E119B1D2C19DA002C65B9 /* StocksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86E119A1D2C19DA002C65B9 /* StocksTableViewController.m */; };
+		C86E119E1D2C19FF002C65B9 /* DisplayStocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86E119D1D2C19FF002C65B9 /* DisplayStocksViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		C86E118B1D2C195E002C65B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C86E118E1D2C195E002C65B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C86E11901D2C195E002C65B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86E11961D2C19AC002C65B9 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		C86E11971D2C19AC002C65B9 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		C86E11991D2C19DA002C65B9 /* StocksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StocksTableViewController.h; sourceTree = "<group>"; };
+		C86E119A1D2C19DA002C65B9 /* StocksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StocksTableViewController.m; sourceTree = "<group>"; };
+		C86E119C1D2C19FF002C65B9 /* DisplayStocksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayStocksViewController.h; sourceTree = "<group>"; };
+		C86E119D1D2C19FF002C65B9 /* DisplayStocksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayStocksViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 		C86E117E1D2C195E002C65B9 /* Stocks */ = {
 			isa = PBXGroup;
 			children = (
+				C86E11961D2C19AC002C65B9 /* ContainerViewController.h */,
+				C86E11971D2C19AC002C65B9 /* ContainerViewController.m */,
+				C86E11991D2C19DA002C65B9 /* StocksTableViewController.h */,
+				C86E119A1D2C19DA002C65B9 /* StocksTableViewController.m */,
+				C86E119C1D2C19FF002C65B9 /* DisplayStocksViewController.h */,
+				C86E119D1D2C19FF002C65B9 /* DisplayStocksViewController.m */,
 				C86E11821D2C195E002C65B9 /* AppDelegate.h */,
 				C86E11831D2C195E002C65B9 /* AppDelegate.m */,
 				C86E11851D2C195E002C65B9 /* ViewController.h */,
@@ -151,6 +166,9 @@
 			files = (
 				C86E11871D2C195E002C65B9 /* ViewController.m in Sources */,
 				C86E11841D2C195E002C65B9 /* AppDelegate.m in Sources */,
+				C86E119E1D2C19FF002C65B9 /* DisplayStocksViewController.m in Sources */,
+				C86E11981D2C19AC002C65B9 /* ContainerViewController.m in Sources */,
+				C86E119B1D2C19DA002C65B9 /* StocksTableViewController.m in Sources */,
 				C86E11811D2C195E002C65B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
